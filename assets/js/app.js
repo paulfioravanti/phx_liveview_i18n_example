@@ -13,7 +13,7 @@ import "phoenix_html"
 import "tachyons"
 
 import { Socket } from "phoenix"
-import LiveSocket from "phoenix_live_view"
+import { LiveSocket } from "phoenix_live_view"
 import { Hooks } from "./hooks"
 
 const csrfToken =
