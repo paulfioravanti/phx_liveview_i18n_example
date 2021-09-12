@@ -1,6 +1,4 @@
-export { Cookie }
-
-const Cookie = (document => {
+export const Cookie = (document => {
   const NAME = "phxi18nexamplelanguage"
 
   return { set: set }

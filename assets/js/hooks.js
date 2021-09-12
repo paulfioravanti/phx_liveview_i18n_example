@@ -1,8 +1,6 @@
-export { Hooks }
-
 import { Cookie } from "./cookie"
 
-const Hooks = {
+export const Hooks = {
   currentLocale: {
     mounted() {
       Cookie.set(this.el.dataset.locale)
