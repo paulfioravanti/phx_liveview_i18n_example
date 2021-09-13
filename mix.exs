@@ -40,7 +40,8 @@ defmodule PhxI18nExample.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.1"},
       {:phoenix_live_view, "~> 0.16"},
-      {:floki, ">= 0.0.0", only: :test}
+      {:floki, ">= 0.0.0", only: :test},
+      {:mix_test_watch, "~> 1.0", only: :dev, runtime: false}
     ]
   end
 end
