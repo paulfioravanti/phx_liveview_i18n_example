@@ -1,4 +1,4 @@
-defmodule Constants do
+defmodule Translations do
   @english_body "Vertically centering things in css is easy!"
   @english_title "Multilingualisation in Phoenix"
   @italian_body "Centrare verticalmente con css è facile!"
