@@ -33,6 +33,18 @@ mix phx.server
 
 Open <http://localhost:4000>
 
+## Tests
+
+```sh
+mix test
+```
+
+### Watch
+
+```sh
+mix test.watch
+```
+
 [Elm]: http://elm-lang.org/
 [Elm I18n Example]: https://github.com/paulfioravanti/elm-i18n-example
 [Internationalisation with Phoenix LiveComponents]: https://www.paulfioravanti.com/blog/internationalisation-phoenix-live-components/
