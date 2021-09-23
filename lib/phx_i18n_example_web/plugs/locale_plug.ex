@@ -1,4 +1,6 @@
 defmodule PhxI18nExampleWeb.LocalePlug do
+  @moduledoc false
+
   alias Plug.Conn
   @behaviour Plug
 

@@ -1,4 +1,6 @@
 defmodule PhxI18nExampleWeb.LayoutStyle do
+  @moduledoc false
+
   @body_classes ~w[
     bg-dark-pink
     overflow-container

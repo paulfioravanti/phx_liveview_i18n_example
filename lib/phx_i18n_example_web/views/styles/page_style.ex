@@ -1,4 +1,6 @@
 defmodule PhxI18nExampleWeb.PageStyle do
+  @moduledoc false
+
   @article_classes ~w[
     dt
     vh-75

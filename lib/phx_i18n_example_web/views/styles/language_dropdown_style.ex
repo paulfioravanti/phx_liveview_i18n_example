@@ -1,4 +1,6 @@
 defmodule PhxI18nExampleWeb.LanguageDropdownStyle do
+  @moduledoc false
+
   @caret_classes ~w[
     absolute
     ml2

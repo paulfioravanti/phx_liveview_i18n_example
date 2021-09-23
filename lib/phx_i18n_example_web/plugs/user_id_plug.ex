@@ -1,4 +1,6 @@
 defmodule PhxI18nExampleWeb.UserIdPlug do
+  @moduledoc false
+
   alias Plug.Conn
   @behaviour Plug
 

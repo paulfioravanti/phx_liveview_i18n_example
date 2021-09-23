@@ -41,7 +41,8 @@ defmodule PhxI18nExample.MixProject do
       {:plug_cowboy, "~> 2.1"},
       {:phoenix_live_view, "~> 0.16"},
       {:floki, ">= 0.0.0", only: :test},
-      {:mix_test_watch, "~> 1.0", only: :dev, runtime: false}
+      {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
     ]
   end
 end

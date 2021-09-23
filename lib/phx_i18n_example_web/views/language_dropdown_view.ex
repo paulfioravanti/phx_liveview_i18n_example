@@ -2,6 +2,7 @@ defmodule PhxI18nExampleWeb.LanguageDropdownView do
   use PhxI18nExampleWeb, :view
   alias PhxI18nExampleWeb.LanguageDropdownStyle
   alias __MODULE__, as: LanguageDropdownView
+  @moduledoc false
 
   @locale_strings %{
     "en" => "English",
